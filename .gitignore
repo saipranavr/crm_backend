@@ -1,0 +1,23 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+
+# Django specific
+*.log
+staticfiles/
+media/
+*.migrations/
+.env
+
+# Ignore virtual environments
+env/
+venv/
+
+# VSCode and JetBrains settings
+.vscode/
+.idea/
